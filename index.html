@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="tvApp">
+<head>
+	<title>Series with AngularJS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.angularjs.org/1.5.8/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.5.8/angular-route.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#/">Shows and anime</a>
+		</div>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#/"><i class="fa fa-home"></i> Series</a></li>
+            <li><a href="#/anime"><i></i> Anime</a></li>
+		</ul>
+	</div>
+	</nav>
+</header>
+<div class="container">
+	<div ng-view></div>
+</div>
+</body>
+</html>
